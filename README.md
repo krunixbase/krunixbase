@@ -1,4 +1,27 @@
 
+
+🪛 Forked by Gitkrunixdev
+This repository is a development fork of krunixbase, originally authored by @shamircrackerlab. It preserves the original CLI architecture for Shamir-based recovery and cryptographic tooling, while introducing enhancements and experimental modules under the Gitkrunixdev brand.
+
+🔍 Purpose of Fork
+Extend CLI agents for new blockchain environments
+
+Test modular export formats in audit-grade workflows
+
+Prototype GUI integrations for investor-facing dashboards
+
+Maintain compatibility with original GPL-3.0 licensing
+
+🧪 Experimental Additions
+wallet-unlock-dev: sandboxed wallet recovery agent for testnets
+
+seed-reconstruct-lite: optimized for mobile/offline use
+
+threshold-analyze-viz: SVG-based quorum visualization for compliance reports
+
+📦 Attribution & License
+This fork retains full attribution to the original author and adheres to the GPL-3.0 License. All modifications are documented in the commit history and changelog.
+
 ## 🔐 **Author:** shamircrackerlab
 
 **Role:** Founder & Product Lead | EdTech · Blockchain · Security  
