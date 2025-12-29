@@ -1,7 +1,7 @@
-
-
-🪛 Forked by Gitkrunixdev
-This repository is a development fork of krunixbase, originally authored by @shamircrackerlab. It preserves the original CLI architecture for Shamir-based recovery and cryptographic tooling, while introducing enhancements and experimental modules under the Gitkrunixdev brand.
+## 🪛 Forked by GitkrunixdevThis repository is a development fork 
+of krunixbase, originally authored by @shamircrackerlab. It preserves the original CLI 
+architecture for Shamir-based recovery and cryptographic tooling, while introducing enhancements 
+and experimental modules under the Gitkrunixdev brand.
 
 🔍 Purpose of Fork
 Extend CLI agents for new blockchain environments
