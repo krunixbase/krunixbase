@@ -119,11 +119,18 @@ Wallet-linked activity includes smart contract deployment, NFT issuance, DeFi st
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 (GPLv3).
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+See the [LICENSE](LICENSE) file for full details.
 
-Adaptations of previously licensed CC BY-SA 4.0 materials are licensed under the One-Way Compatibility Policy announced by Creative Commons in January 2015.
+Adaptations of previously licensed CC BY-SA 4.0 materials are licensed under
+the One-Way Compatibility Policy announced by Creative Commons in January 2015.
 
-Full license text: [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
+This repository is a deterministic validation reference for Shamir Secret Sharing.
+It is not intended as a production library and does not provide cryptographic
+guarantees beyond the mathematical reconstruction model.
+
+
+
 
 
 > Built by devkrunix – bridging cryptography, education, and blockchain recovery tooling.
