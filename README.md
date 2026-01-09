@@ -1,14 +1,61 @@
+# Krunixbase
 
+Security and compliance engineering focused on audit‑ready documentation,
+cryptographic validation, and evidence workflows.
 
-Here are some ideas to get you started:
+This organization hosts reference repositories and research laboratories
+designed to support governance, compliance, and security validation efforts.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning Solidity Smart Contracts 
-- 👯 I’m looking to collaborate in Blockchain 
-- 🤔 I’m looking for help with appropriate field of study and work in 
-Smart Contracts Solidity
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Focus Areas
+
+- Security and compliance documentation
+- Audit‑ready evidence structures
+- Cryptographic validation and reconstruction research
+- Governance and repository hygiene
+- Reproducible, defensible technical workflows
+
+---
+
+## Repository Types
+
+Repositories under this organization fall into the following categories:
+
+- **Reference repositories**  
+  Stable documentation and validation patterns intended for institutional review.
+
+- **Research laboratories**  
+  Controlled environments for cryptographic and security research,
+  clearly scoped for educational and testing purposes.
+
+- **Compliance tooling and templates**  
+  Supporting materials for governance, licensing, and audit preparation.
+
+---
+
+## Usage Notice
+
+All materials are provided for research, documentation, and educational purposes.
+They do not constitute legal, audit, or security consulting services.
+
+Professional assessment should be conducted by qualified auditors or advisors
+when required.
+
+---
+
+## Contact
+
+Email: shamircrackerlab@gmail.com  
+GitHub: https://github.com/krunixbase  
+Twitter (X): https://twitter.com/shamircrackerlab
+
+---
+
+## Pinned Repositories
+
+- [`licensing-compliance`](https://github.com/krunixbase/licensing-compliance) — audit-grade licensing and governance templates  
+- [`soc2-evidence-validator`](https://github.com/krunixbase/soc2-evidence-validator) — reference documentation for SOC 2 evidence workflows  
+- [`shamir_cracker_lab`](https://github.com/krunixbase/shamir_cracker_lab) — CLI research lab for Shamir Secret Sharing reconstruction
+
+_Last updated: January 2026_
