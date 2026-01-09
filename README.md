@@ -1,4 +1,4 @@
-## Licensing
+# Licensing
 
 This repository uses a dual-licensing structure:
 
