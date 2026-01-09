@@ -4,12 +4,13 @@ Krunixbase is a security and compliance engineering organization focused on
 audit‑ready documentation, cryptographic validation, and evidence‑based
 technical workflows.
 
-This repository serves as a public reference and template for projects
-maintained under the Krunixbase organization.
+The organization maintains public reference repositories and controlled
+research environments intended for institutional review, technical due
+diligence, and reproducible security research.
 
 ---
 
-## Scope
+## Scope of Work
 
 Krunixbase operates within the following domains:
 
@@ -19,33 +20,32 @@ Krunixbase operates within the following domains:
 - Repository governance and licensing compliance
 - Reproducible and defensible technical workflows
 
-The repositories published under this organization are designed for
-institutional review, research, and controlled technical evaluation.
+All published materials are designed to support transparency, traceability,
+and formal review processes.
 
 ---
 
-## Repository Structure
+## Repository Model
 
-This repository follows a modular structure:
-
-
-Each directory is governed by its own license, as described below.
+Repositories maintained under the Krunixbase organization follow a modular
+and defensible structure:
+This structure enables clear separation of concerns, licensing clarity,
+and audit‑grade maintainability.
 
 ---
 
-## Licensing
+## Licensing Model
 
-This repository uses a **dual‑licensing structure**:
+Krunixbase repositories typically use a **dual‑licensing structure**:
 
-- Documentation and non‑code materials located in the `docs/` directory are
-  licensed under the **Creative Commons Attribution 4.0 International
-  (CC‑BY 4.0)** license.
+- Documentation and non‑code materials are licensed under
+  **Creative Commons Attribution 4.0 International (CC‑BY 4.0)**.
 
-- Source code located in the `src/` directory is licensed under the
+- Source code is licensed under the
   **GNU General Public License v3.0 (GPL‑3.0)**.
 
-The root `LICENSE` file serves as a licensing map.
-Each directory contains its own `LICENSE` file with the full legal text.
+Each repository contains a root `LICENSE` file acting as a licensing map,
+with full license texts located in the respective directories.
 
 ---
 
@@ -62,8 +62,8 @@ or advisors when required.
 
 ## References
 
-See `REFERENCE.md` for organizational context and external references
-related to repository governance and licensing structure.
+See individual repository `REFERENCE.md` files for organizational context,
+external references, and governance documentation.
 
 ---
 
