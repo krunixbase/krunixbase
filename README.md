@@ -59,3 +59,13 @@ Twitter (X): https://twitter.com/shamircrackerlab
 - [`shamir_cracker_lab`](https://github.com/krunixbase/shamir_cracker_lab) — CLI research lab for Shamir Secret Sharing reconstruction
 
 _Last updated: January 2026_
+
+
+## Licensing and Attribution
+
+This repository preserves original authorship and complies with the GPL-3.0 license.
+
+All modifications are documented in commit history and changelogs.
+
+Original author: [@shamircrackerlab](https://github.com/shamircrackerlab)
+
