@@ -1,4 +1,3 @@
-
 ## Informational legal interpretation
 
 This repository contains materials distributed under different licenses.
