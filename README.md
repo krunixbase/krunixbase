@@ -90,10 +90,10 @@ and audit‑grade maintainability.
 
 Krunixbase repositories typically use a **dual‑licensing structure**:
 
-- Documentation and non‑code materials are licensed under
+● Documentation and non‑code materials are licensed under
   **Creative Commons Attribution 4.0 International (CC‑BY 4.0)**.
 
-- Source code is licensed under the
+● Source code is licensed under the
   **GNU General Public License v3.0 (GPL‑3.0)**.
 
 Each repository contains a root `LICENSE` file acting as a licensing map,
