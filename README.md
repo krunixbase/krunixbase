@@ -1,9 +1,11 @@
+## Licensing
 
-## License
+This repository uses a dual-licensing structure:
 
-This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+- Documentation and non-code materials in the `docs/` directory are licensed
+  under Creative Commons Attribution 4.0 International (CC-BY 4.0).
 
-© 2026 krunixbase  
+- Source code in the `src/` directory is licensed under the
+  GNU General Public License v3.0 (GPL-3.0).
 
-https://creativecommons.org/licenses/by/4.0/
-
+Each directory contains its own LICENSE file with the full legal text.
