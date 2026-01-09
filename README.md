@@ -1,11 +1,4 @@
-# Licensing
+This repository follows a modular and dual-licensed structure inspired by best practices in open-source governance.  
 
-This repository uses a dual-licensing structure:
+See [trunkbasedlearn #13](https://github.com/trunkbasedlearn/trunkbased/pull/13) for a public implementation of similar principles.
 
-- Documentation and non-code materials in the `docs/` directory are licensed
-  under Creative Commons Attribution 4.0 International (CC-BY 4.0).
-
-- Source code in the `src/` directory is licensed under the
-  GNU General Public License v3.0 (GPL-3.0).
-
-Each directory contains its own LICENSE file with the full legal text.
