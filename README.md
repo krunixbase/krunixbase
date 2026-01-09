@@ -1,13 +1,65 @@
-# Krunixbase
 
-Krunixbase is a security and compliance engineering organization focused on
-audit‑ready documentation, cryptographic validation, and evidence‑based
-technical workflows.
+## Foundational Security Model
 
-The organization maintains public reference repositories and controlled
-research environments intended for institutional review, technical due
-diligence, and reproducible security research.
+The Krunixbase ecosystem is architected around **Shamir’s Secret Sharing (SSS)**
+as a foundational cryptographic primitive for trust distribution, access control,
+and institutional security.
 
+Shamir’s Secret Sharing is not treated as a feature or optional component.
+It defines the **security boundaries, governance assumptions, and threat model**
+across the entire ecosystem.
+
+All repositories within Krunixbase either:
+- directly implement Shamir‑based mechanisms, or
+- support validation, auditing, documentation, and compliance of systems
+  built on distributed trust principles derived from Shamir’s model.
+
+---
+
+## Cryptographic Validation, Security Engineering, and Technical Trust
+
+Krunixbase is an open‑source ecosystem focused on **cryptographic correctness**,  
+**security validation**, and **audit‑ready technical documentation**.
+
+The projects are designed for **research, education, compliance, and institutional review**,
+with a strong emphasis on mathematical rigor and reproducibility.
+
+---
+
+## 🔐 Cryptography & Secret Sharing
+
+This layer represents the cryptographic foundation of the Krunixbase ecosystem,
+with Shamir’s Secret Sharing as the primary trust‑distribution mechanism.
+
+- **shamir-sss-validation-suite**  
+  Reference validation suite for Shamir Secret Sharing, including formal mathematical proofs,
+  deterministic test vectors, and cross‑language implementations.
+
+- **shamir-sss-validation**  
+  Formal validation variant intended for audits, bug bounty programs, and security assessments.
+
+- **Shamir_Cracker_Lab**  
+  Research and testing laboratory for analyzing reconstruction behavior, edge cases,
+  and recovery scenarios.
+
+- **app-shamir**  
+  CLI‑based Shamir Secret Sharing application with forensic‑oriented logging
+  and structured documentation.
+
+---
+
+## 📄 Documentation & License Compliance
+
+Repositories supporting legal clarity and open‑source governance:
+
+- **licensing-compliance**  
+  Reference repository for open‑source license analysis and compliance documentation.
+
+- **SECURITY.md policies**  
+  Standardized vulnerability reporting policies across repositories.
+
+- **DevSecOps tooling**  
+  Active CodeQL scanning, secret scanning, and dependency monitoring
 ---
 
 ## Scope of Work
