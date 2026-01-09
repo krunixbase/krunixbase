@@ -1,4 +1,3 @@
-# Code of Conduct
 
 This organization is committed to respectful, inclusive, and professional collaboration.
 
