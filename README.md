@@ -131,6 +131,14 @@ external references, and governance documentation.
 
 ---
 
+## Recent Fixes
+
+The krunixbase repository has been updated with dual licensing, modular structure, and CI hardening.
+A critical YAML misconfiguration in `.github/dependabot.yml` was resolved to restore multi-ecosystem support. This fix reinforces the repository’s audit-grade defensibility and operational resilience.
+The repo is now ready to be referenced as a security-grade template for modular, Shamir-based recovery tooling.
+
+---
+
 ## Contact
 
 - GitHub: https://github.com/krunixbase
