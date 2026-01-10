@@ -1,9 +1,5 @@
+version: 2
 updates:
-  - package-ecosystem: ""
-    directory: "/"
-    schedule:
-      interval: "weekly"
-
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
@@ -13,4 +9,14 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "github-actions"
+    allow:
+      - dependency-type: "direct"
+    ignore:
+      - dependency-name: "pkg"
+        versions:
+          - "1.x"
