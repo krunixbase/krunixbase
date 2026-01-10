@@ -1,3 +1,15 @@
+# 🧭 Project Origin
+
+This repository is forked from:
+
+> **krunixbase**  
+> Original author: **@shamircrackerlab**  
+> https://github.com/krunixbase/krunixbase  
+> Contact: https://x.com/shamircrackerlab
+
+The fork preserves the original architectural intent while extending the tooling for **development, experimentation, and institutional integration** under the Gitkrunixdev namespace.
+
+---
 
 ## Foundational Security Model
 
