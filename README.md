@@ -1,27 +1,34 @@
+# Krunixbase
+
+Security & compliance engineering.  
+Audit‑ready documentation, cryptographic validation, and evidence workflows.
+
+---
+
 ## 🧭 Project Origin
 
-This repository is forked from:
+This repository consolidates and extends the original Krunixbase
+architectural work initiated by **@shamircrackerlab**.
 
-> **krunixbase**  
-> Original author: **@shamircrackerlab**  
-> https://github.com/krunixbase/krunixbase  
-> Contact: https://x.com/shamircrackerlab
-
-The fork preserves the original architectural intent while extending the tooling for **development, experimentation, and institutional integration** under the Gitkrunixdev namespace.
+The project preserves the original design intent while evolving the
+tooling, documentation, and validation workflows for research,
+experimentation, and institutional review under the Krunixbase
+namespace.
 
 ---
 
 ## Foundational Security Model
 
-The Krunixbase ecosystem is architected around **Shamir’s Secret Sharing (SSS)**
-as a foundational cryptographic primitive for trust distribution, access control,
-and institutional security.
+The Krunixbase ecosystem is architected around **Shamir’s Secret Sharing
+(SSS)** as a foundational cryptographic primitive for trust distribution,
+access control, and institutional security.
 
 Shamir’s Secret Sharing is not treated as a feature or optional component.
-It defines the **security boundaries, governance assumptions, and threat model**
-across the entire ecosystem.
+It defines the security boundaries, governance assumptions, and threat
+model across the ecosystem.
 
-All repositories within Krunixbase either:
+Repositories within Krunixbase are designed to either:
+
 - directly implement Shamir‑based mechanisms, or
 - support validation, auditing, documentation, and compliance of systems
   built on distributed trust principles derived from Shamir’s model.
@@ -30,33 +37,48 @@ All repositories within Krunixbase either:
 
 ## Cryptographic Validation, Security Engineering, and Technical Trust
 
-Krunixbase is an open‑source ecosystem focused on **cryptographic correctness**,  
-**security validation**, and **audit‑ready technical documentation**.
+Krunixbase is an open‑source ecosystem focused on cryptographic
+correctness, security validation, and audit‑ready technical
+documentation.
 
-The projects are designed for **research, education, compliance, and institutional review**,
-with a strong emphasis on mathematical rigor and reproducibility.
+Projects are designed for research, education, compliance, and
+institutional review, with a strong emphasis on mathematical rigor,
+reproducibility, and defensible engineering practices.
 
 ---
 
 ## 🔐 Cryptography & Secret Sharing
 
-This layer represents the cryptographic foundation of the Krunixbase ecosystem,
-with Shamir’s Secret Sharing as the primary trust‑distribution mechanism.
+This layer represents the cryptographic foundation of the Krunixbase
+ecosystem, with Shamir’s Secret Sharing as the primary trust‑distribution
+mechanism.
+
+### Core Repositories
+
+- **shamir**  
+  Reference‑grade implementation of Shamir Secret Sharing with modular
+  encoding and audit‑ready structure.
+
+- **shamir-cli**  
+  Modular CLI agents for Shamir Secret Sharing — operational silence,
+  audit‑grade recovery, and annotated resilience.
 
 - **shamir-sss-validation-suite**  
-  Reference validation suite for Shamir Secret Sharing, including formal mathematical proofs,
-  deterministic test vectors, and cross‑language implementations.
+  Reference validation suite for Shamir Secret Sharing, including formal
+  mathematical proofs, deterministic test vectors, and cross‑language
+  implementations.
 
 - **shamir-sss-validation**  
-  Formal validation variant intended for audits, bug bounty programs, and security assessments.
+  Formal validation variant intended for audits, bug bounty programs, and
+  cryptographic assurance.
 
 - **Shamir_Cracker_Lab**  
-  Research and testing laboratory for analyzing reconstruction behavior, edge cases,
-  and recovery scenarios.
+  Research and testing laboratory for analyzing reconstruction behavior,
+  edge cases, and recovery scenarios.
 
 - **app-shamir**  
-  CLI‑based Shamir Secret Sharing application with forensic‑oriented logging
-  and structured documentation.
+  Audit‑ready Shamir Secret Sharing application with forensic‑oriented
+  logging and structured documentation.
 
 ---
 
@@ -65,47 +87,48 @@ with Shamir’s Secret Sharing as the primary trust‑distribution mechanism.
 Repositories supporting legal clarity and open‑source governance:
 
 - **licensing-compliance**  
-  Reference repository for open‑source license analysis and compliance documentation.
+  Reference repository for open‑source license analysis and compliance
+  documentation.
 
 - **SECURITY.md policies**  
   Standardized vulnerability reporting policies across repositories.
 
 - **DevSecOps tooling**  
-  Active CodeQL scanning, secret scanning, and dependency monitoring
+  Active CodeQL scanning, secret scanning, and dependency monitoring.
+
 ---
 
 ## Scope of Work
 
 Krunixbase operates within the following domains:
 
-- Security and compliance documentation
-- Audit‑ready evidence structures
-- Cryptographic validation and reconstruction research
-- Repository governance and licensing compliance
-- Reproducible and defensible technical workflows
+- security and compliance documentation
+- audit‑ready evidence structures
+- cryptographic validation and reconstruction research
+- repository governance and licensing compliance
+- reproducible and defensible technical workflows
 
-All published materials are designed to support transparency, traceability,
-and formal review processes.
+All published materials are designed to support transparency,
+traceability, and formal review processes.
 
 ---
 
 ## Repository Model
 
-Repositories maintained under the Krunixbase organization follow a modular
-and defensible structure:
-This structure enables clear separation of concerns, licensing clarity,
-and audit‑grade maintainability.
+Repositories maintained under the Krunixbase organization follow a
+modular and defensible structure. This enables clear separation of
+concerns, licensing clarity, and audit‑grade maintainability.
 
 ---
 
 ## Licensing Model
 
-Krunixbase repositories typically use a **dual‑licensing structure**:
+Krunixbase repositories typically use a dual‑licensing structure:
 
-● Documentation and non‑code materials are licensed under
+- Documentation and non‑code materials are licensed under  
   **Creative Commons Attribution 4.0 International (CC‑BY 4.0)**.
 
-● Source code is licensed under the
+- Source code is licensed under  
   **GNU General Public License v3.0 (GPL‑3.0)**.
 
 Each repository contains a root `LICENSE` file acting as a licensing map,
@@ -115,32 +138,24 @@ with full license texts located in the respective directories.
 
 ## Usage Notice
 
-All materials published under the Krunixbase organization are provided for
-research, documentation, and educational purposes only.
+All materials published under the Krunixbase organization are provided
+for research, documentation, and educational purposes only.
 
 They do not constitute legal, audit, or operational security consulting
-services. Professional assessment should be conducted by qualified auditors
-or advisors when required.
+services. Professional assessment should be conducted by qualified
+auditors or advisors when required.
 
 ---
 
 ## References
 
-See individual repository `REFERENCE.md` files for organizational context,
-external references, and governance documentation.
-
----
-
-## Recent Fixes
-
-The krunixbase repository has been updated with dual licensing, modular structure, and CI hardening.
-A critical YAML misconfiguration in `.github/dependabot.yml` was resolved to restore multi-ecosystem support. This fix reinforces the repository’s audit-grade defensibility and operational resilience.
-The repo is now ready to be referenced as a security-grade template for modular, Shamir-based recovery tooling.
+See individual repository `REFERENCE.md` files for organizational
+context, external references, and governance documentation.
 
 ---
 
 ## Contact
 
-- GitHub: https://github.com/krunixbase
-- Twitter (X): https://twitter.com/shamircrackerlab
-- Email: shamircrackerlab@gmail.com
+GitHub: https://github.com/krunixbase  
+Twitter (X): https://twitter.com/shamircrackerlab  
+Email: shamircrackerlab@gmail.com
