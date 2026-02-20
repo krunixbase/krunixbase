@@ -1,4 +1,4 @@
-## Organization:  
+ó## Organization:  
 
 Krunixbase
 
@@ -26,7 +26,7 @@ Twitter (X): https://twitter.com/shamircrackerlab (twitter.com in Bing)
 
 ## External references
 
-- Dual licensing and modular repo structure(https://github.com/krunixbase/krunixbase)
+- Dual licensing and modular repo structure(https://github.com/krunixbase/krunixbase/blob/main/REFERENCE.md)
 - A public pull request introducing dual licensing and modular folder layout, aligned with the structure used in this repository.
 
 
