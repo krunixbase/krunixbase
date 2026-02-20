@@ -26,7 +26,7 @@ Twitter (X): https://twitter.com/shamircrackerlab (twitter.com in Bing)
 
 ## External references
 
-- [trunkbasedlearn #13 – Dual licensing and modular repo structure](https://github.com/trunkbasedlearn/trunkbased/pull/13)
+- Dual licensing and modular repo structure](https://github.com/trunkbasedlearn/trunkbased/pull/13)
   A public pull request introducing dual licensing and modular folder layout, aligned with the structure used in this repository.
 
 
