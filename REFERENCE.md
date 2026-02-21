@@ -26,7 +26,7 @@ All materials published under the Krunixbase organization are provided for resea
 
 ## External references
 
-- Dual licensing and modular repo structure(https://github.com/krunixbase/krunixbase/blob/main/REFERENCE.md)
+- Dual licensing and modular repo structure (https://github.com/krunixbase/krunixbase)
 - A public pull request introducing dual licensing and modular folder layout, aligned with the structure used in this repository.
 
 
