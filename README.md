@@ -203,6 +203,8 @@ Supported Use Cases
 
 - Automated documentation pipelines generating reproducible, audit‑ready reports.
 
+For detailed AI/LLM documentation, see: [docs/ai-integration.md](docs/ai-integration.md)
+
 ---
 
 ## Usage Notice
