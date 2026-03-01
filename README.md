@@ -8,13 +8,25 @@ The Krunixbase ecosystem is a modular security and cryptography framework design
 
 ## Core Components
 
-- shamir-core — reference implementation of Shamir Secret Sharing with deterministic encoding and audit‑ready structure.
-- shamir-validator — mathematical validation suite for threshold reconstruction, polynomial consistency, and formal verification.
-- shamir-lab — experimental research environment for reconstruction testing, fuzzing, and anomaly analysis.
-- shamir-cli — modular command‑line toolkit for operational recovery and silent, deterministic workflows.
+- shamir-core — https://github.com/krunixbase/shamir-core
+  reference implementation of Shamir Secret Sharing with deterministic encoding and audit‑ready structure.
+  
+- shamir-validator — https://github.com/krunixbase/shamir-validator
+  mathematical validation suite for threshold reconstruction, polynomial consistency, and formal verification.
+  
+- shamir-lab — https://github.com/krunixbase/shamir-lab  
+  experimental research environment for reconstruction testing, fuzzing, and anomaly analysis.
+  
+- shamir-cli — https://github.com/krunixbase/shamir-cli  
+  modular command‑line toolkit for operational recovery and silent, deterministic workflows.
+  
 - shamir-agent — threshold‑based signing agent with secure isolation and forensic logging.
-- shamir-envelope — reference format for storing Shamir shares without leaking structure or operational intent.
-- threshold-operations — operational procedures for manifests, rotation, recovery, and institutional workflows.
+  
+- shamir-envelope — https://github.com/krunixbase/shamir-envelope
+  reference format for storing Shamir shares without leaking structure or operational intent.
+  
+- threshold-operations — https://github.com/krunixbase/threshold-operations
+  operational procedures for manifests, rotation, recovery, and institutional workflows.
 
 ## Research & Development Extensions
 
@@ -26,10 +38,17 @@ Community‑maintained fork extending the original Shamir_Cracker_Lab with addit
 
 ## Evidence & Compliance Layer
 
-- soc2-evidence-validator — validation patterns for SOC 2 evidence artifacts.
-- iam-evidence-validator — audit‑ready IAM evidence validator for access reviews and identity lifecycle controls.
-- GDPR-Evidence-Validator — offline validator for GDPR documentation completeness and availability.
-- licensing-compliance — governance repository for open‑source license compliance and legal interpretation.
+- soc2-evidence-validator — https://github.com/krunixbase/soc2-evidence-validator 
+  validation patterns for SOC 2 evidence artifacts.
+  
+- iam-evidence-validator — https://github.com/krunixbase/iam-evidence-validator 
+  audit‑ready IAM evidence validator for access reviews and identity lifecycle controls.
+  
+- GDPR-Evidence-Validator — https://github.com/krunixbase/GDPR-Evidence-Validator 
+  offline validator for GDPR documentation completeness and availability.
+  
+- licensing-compliance — https://github.com/krunixbase/licensing-compliance 
+  governance repository for open‑source license compliance and legal interpretation.
 
 ## Documentation & Governance
 
