@@ -31,4 +31,5 @@ All CI configurations are now linted, deterministic, and version-controlled.
 ## AI-assisted validation is used to support cryptographic analysis, compliance workflows, and documentation generation.  
 
 All LLM interactions follow reproducible, auditable workflows aligned with the repository’s security model.
+
 AI components operate in isolation from cryptographic primitives and never handle secret material.
