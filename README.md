@@ -1,7 +1,6 @@
 # Executive Summary
 
-Krunixbase is a modular security, cryptography, and compliance ecosystem based on deterministic validation processes, Shamir's Secret Sharing, and auditable AI/LLM pipelines.
-The project provides tools, documentation, and architecture for institutions, auditors, and research teams.
+Krunixbase is a modular security, cryptography, and compliance ecosystem built on deterministic validation processes, Shamir’s Secret Sharing, and auditable AI/LLM pipelines. The project provides tools, documentation, and architecture for institutions, auditors, and research teams working with distributed trust, forensic workflows, and evidence‑based security engineering.
 
 ## Krunixbase
 
@@ -11,7 +10,7 @@ AI/LLM Integration Architect • Blockchain Security & Digital Forensics • Ope
 
 ## Krunixbase Ecosystem Overview
 
-The Krunixbase ecosystem is a modular security and cryptography framework designed for audit‑grade validation, forensic workflows, and AI‑assisted compliance automation. Each repository in the ecosystem serves a specific role within a unified architecture focused on deterministic security, operational resilience, and institutional‑grade documentation.
+The Krunixbase ecosystem is a modular security and cryptography framework designed for audit‑grade validation, forensic workflows, and AI‑assisted compliance automation. Each repository serves a specific role within a unified architecture focused on deterministic security, operational resilience, and institutional‑grade documentation.
 
 Core Components
 
