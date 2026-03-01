@@ -37,7 +37,7 @@ Community‑maintained fork extending the original Shamir_Cracker_Lab with addit
 
 - licensing-compliance — governance repository for open‑source license compliance and legal interpretation.
 
-##Documentation & Governance
+## Documentation & Governance
 
 - docs — full PL/EN documentation for architecture, governance, cryptography, AI/LLM integration, and operational standards.
 
