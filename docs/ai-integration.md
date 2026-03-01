@@ -57,7 +57,7 @@ It is designed to be predictable, controlled, and compliant with institutional a
 
 3.1 Architectural Flow
 
-'''
+```
 
 [Evidence Input]
         ↓
@@ -81,7 +81,7 @@ It is designed to be predictable, controlled, and compliant with institutional a
 — structured compliance artifacts
 — reproducible forensic records
 
-'''
+```
 
 4. Design Principles
 
