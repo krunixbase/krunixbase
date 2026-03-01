@@ -27,3 +27,7 @@ This repository enforces modular CI configuration and audit-grade defensibility.
 Recent fix: A critical YAML misconfiguration in `.github/dependabot.yml` was identified and resolved. Multiple top-level `updates:` blocks were merged into a single list to restore multi-ecosystem support (pip, GitHub Actions, etc.). This change ensures full CI coverage and prevents silent failures in dependency tracking.
 
 All CI configurations are now linted, deterministic, and version-controlled.
+
+## AI-assisted validation is used to support cryptographic analysis, compliance workflows, and documentation generation.  
+
+All LLM interactions follow reproducible, auditable workflows aligned with the repository’s security model.
