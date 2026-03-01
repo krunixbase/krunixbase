@@ -1,8 +1,10 @@
 ## AI/LLM Integration — Technical Documentation
+
 This document provides a detailed overview of how AI/LLM components are integrated into the Krunixbase ecosystem.
 It expands on the high‑level information in the main README and describes the architecture, workflows, security guarantees, and operational constraints of AI‑assisted components.
 
 1. Purpose of AI/LLM Integration
+
 AI/LLM components in Krunixbase are designed to enhance:
 
 - forensic evidence analysis,
@@ -19,6 +21,7 @@ LLMs are used as deterministic, reproducible helpers, not autonomous decision‑
 They support cryptographic truth — they do not replace or override it.
 
 2. Scope of AI/LLM Functionality
+
 AI/LLM components provide:
 
 - structured metadata generation,
@@ -48,10 +51,12 @@ They do not:
 - override deterministic cryptographic results.
 
 3. AI/LLM Architecture Overview
+
 The AI/LLM architecture is an operational, auditable, and security‑aligned extension of the core cryptographic and forensic workflows.
 It is designed to be predictable, controlled, and compliant with institutional and regulatory requirements.
 
 3.1 Architectural Flow
+
 Kod
 [Evidence Input]
         ↓
@@ -78,6 +83,7 @@ Kod
 4. Design Principles
 
 4.1 Deterministic Prompting
+
 All LLM interactions use fixed, versioned prompt templates to ensure:
 
 - reproducibility,
@@ -87,6 +93,7 @@ All LLM interactions use fixed, versioned prompt templates to ensure:
 - consistent outputs across environments.
 
 4.2 Inference Isolation
+
 AI components operate in a sandboxed environment, isolated from:
 
 - cryptographic primitives,
@@ -96,10 +103,12 @@ AI components operate in a sandboxed environment, isolated from:
 - sensitive reconstruction workflows.
 
 4.3 No Training on User Data
+
 Inference is stateless.
 No evidence, cryptographic material, or metadata is used for model training.
 
 4.4 Audit Logging
+
 Every AI‑assisted operation generates a traceable log entry aligned with:
 
 - the repository’s security model,
@@ -109,6 +118,7 @@ Every AI‑assisted operation generates a traceable log entry aligned with:
 - forensic reproducibility standards.
 
 4.5 Security‑Aligned Outputs
+
 LLM outputs are validated against cryptographic truth — never the reverse.
 
 5. Supported Use Cases
@@ -154,6 +164,7 @@ LLM outputs are validated against cryptographic truth — never the reverse.
 - Artifacts are stored for audit and governance.
 
 7. Security Guarantees
+
 AI/LLM components adhere to:
 
 - EU‑grade compliance,
@@ -169,6 +180,7 @@ AI/LLM components adhere to:
 - cryptographic truth as the source of authority.
 
 8. Limitations
+
 AI/LLM components:
 
 - cannot validate cryptographic correctness,
@@ -182,6 +194,7 @@ AI/LLM components:
 - must not be used for legal or operational decision‑making without expert oversight.
 
 9. Versioning & Reproducibility
+
 AI/LLM components follow:
 
 - versioned prompt templates,
@@ -195,6 +208,7 @@ AI/LLM components follow:
 - This ensures that forensic and compliance artifacts remain stable across time.
 
 10. Future Extensions
+
 Planned enhancements include:
 
 - extended anomaly detection models,
@@ -206,6 +220,7 @@ Planned enhancements include:
 - improved metadata ontologies for forensic workflows.
 
 11. Contact
+
 GitHub: https://github.com/krunixbase   
 Email: shamircrackerlab@gmail.com
 Twitter/X: https://twitter.com/shamircrackerlab (twitter.com in Bing)
