@@ -57,7 +57,8 @@ It is designed to be predictable, controlled, and compliant with institutional a
 
 3.1 Architectural Flow
 
-Kod
+'''
+
 [Evidence Input]
         ↓
 [LLM Pre‑Processing Layer]
@@ -79,6 +80,8 @@ Kod
 — validated evidence sets
 — structured compliance artifacts
 — reproducible forensic records
+
+'''
 
 4. Design Principles
 
