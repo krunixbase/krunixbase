@@ -136,6 +136,21 @@ with full license texts located in the respective directories.
 
 ---
 
+## AI/LLM Integration
+
+Krunixbase integrates AI/LLM components to support forensic analysis, evidence validation, and compliance automation.  
+The OpenAI API is used for:
+
+- structured metadata generation,
+- automated documentation workflows,
+- anomaly detection in evidence sets,
+- prompt‑based validation pipelines,
+- cross‑repository consistency checks.
+
+LLMs are treated as operational infrastructure components: predictable, auditable, and aligned with security and compliance requirements.
+
+---
+
 ## Usage Notice
 
 All materials published under the Krunixbase organization are provided
