@@ -25,6 +25,10 @@ Core Components
 
 - threshold-operations — operational procedures for manifests, rotation, recovery, and institutional workflows.
 
+- [shamir-core](https://github.com/krunixbase/shamir-core)
+
+- [shamir-validator](https://github.com/krunixbase/shamir-validator)
+
 Evidence & Compliance Layer
 
 - soc2-evidence-validator — validation patterns for SOC 2 evidence artifacts.
