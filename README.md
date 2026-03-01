@@ -151,6 +151,60 @@ LLMs are treated as operational infrastructure components: predictable, auditabl
 
 ---
 
+## AI/LLM Architecture Overview
+
+The AI/LLM architecture within the Krunixbase ecosystem is designed as an operational, auditable, and security‑aligned extension of the core cryptographic and forensic workflows. Language models are not treated as autonomous decision‑making systems but as deterministic, reproducible components that support evidence analysis, metadata generation, and compliance automation.
+
+Architectural Flow
+
+[Evidence Input]
+        ↓
+[LLM Pre‑Processing Layer]
+— metadata extraction
+— structural classification
+— anomaly detection
+        ↓
+[Cryptographic Validation Layer]
+— Shamir Secret Sharing validation
+— threshold reconstruction analysis
+— mathematical consistency checks
+        ↓
+[Compliance & Governance Pipeline]
+— documentation generation
+— audit‑ready reporting
+— policy alignment (EU‑grade)
+        ↓
+[Operational Output]
+— validated evidence sets
+— structured compliance artifacts
+— reproducible forensic records
+
+Design Principles
+
+- Deterministic prompting — all LLM interactions follow fixed, versioned prompt templates to ensure reproducibility and auditability.
+
+- Inference isolation — AI components operate in a sandboxed environment, separated from cryptographic primitives and secret‑handling logic.
+
+- No training on user data — all inference is stateless; no evidence or cryptographic material is used for model training.
+
+- Audit logging — every AI‑assisted operation produces a traceable log entry aligned with the repository’s security and compliance model.
+
+- Security‑aligned outputs — LLM outputs are validated against cryptographic truth, not the other way around.
+
+Supported Use Cases
+
+- Forensic evidence validation using structured metadata and anomaly detection.
+
+- Smart‑contract security analysis with prompt‑driven classification and documentation.
+
+- Compliance automation for GDPR, SOC2, and institutional audit workflows.
+
+- Cross‑repository consistency checks for cryptographic artifacts and documentation.
+
+- Automated documentation pipelines generating reproducible, audit‑ready reports.
+
+---
+
 ## Usage Notice
 
 All materials published under the Krunixbase organization are provided
