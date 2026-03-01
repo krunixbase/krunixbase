@@ -179,13 +179,9 @@ Architectural Flow
 ## Supported Use Cases
 
 - Forensic evidence validation using structured metadata and anomaly detection.
-
 - Smart‑contract security analysis with prompt‑driven classification and documentation.
-
 - Compliance automation for GDPR, SOC2, and institutional audit workflows.
-
 - Cross‑repository consistency checks for cryptographic artifacts and documentation.
-
 - Automated documentation pipelines generating reproducible, audit‑ready reports.
 
 For detailed AI/LLM documentation, see: [docs/ai-integration.md](docs/ai-integration.md)
