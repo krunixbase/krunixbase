@@ -157,6 +157,8 @@ The AI/LLM architecture within the Krunixbase ecosystem is designed as an operat
 
 Architectural Flow
 
+```
+
 [Evidence Input]
         ↓
 [LLM Pre‑Processing Layer]
@@ -178,6 +180,8 @@ Architectural Flow
 — validated evidence sets
 — structured compliance artifacts
 — reproducible forensic records
+
+```
 
 Design Principles
 
