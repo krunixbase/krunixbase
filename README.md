@@ -1,7 +1,11 @@
-# Krunixbase
+# Executive Summary
 
-Security & compliance engineering.  
-Audit‑ready documentation, cryptographic validation, and evidence workflows.
+Krunixbase is a modular security, cryptography, and compliance ecosystem based on deterministic validation processes, Shamir's Secret Sharing, and auditable AI/LLM pipelines.
+The project provides tools, documentation, and architecture for institutions, auditors, and research teams.
+
+## Krunixbase
+
+AI/LLM Integration Architect • Blockchain Security & Digital Forensics • Open‑Source Toolchain Engineer 
 
 ---
 
