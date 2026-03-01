@@ -20,8 +20,6 @@ The Krunixbase ecosystem is a modular security and cryptography framework design
 - shamir-cli — https://github.com/krunixbase/shamir-cli  
   modular command‑line toolkit for operational recovery and silent, deterministic workflows.
   
-- shamir-agent — threshold‑based signing agent with secure isolation and forensic logging.
-  
 - shamir-envelope — https://github.com/krunixbase/shamir-envelope
   reference format for storing Shamir shares without leaking structure or operational intent.
   
