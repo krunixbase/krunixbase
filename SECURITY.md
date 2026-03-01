@@ -28,8 +28,46 @@ Recent fix: A critical YAML misconfiguration in `.github/dependabot.yml` was ide
 
 All CI configurations are now linted, deterministic, and version-controlled.
 
-## AI-assisted validation is used to support cryptographic analysis, compliance workflows, and documentation generation.  
+## AI Security Model
 
-All LLM interactions follow reproducible, auditable workflows aligned with the repository’s security model.
+The Krunixbase ecosystem incorporates AI‑assisted components strictly within a controlled, auditable, and security‑aligned framework. AI/LLM functionality is designed to support cryptographic analysis, compliance workflows, and documentation generation without introducing new attack surfaces or weakening cryptographic guarantees.
 
-AI components operate in isolation from cryptographic primitives and never handle secret material.
+Isolation and Trust Boundaries
+
+- AI components operate in a sandboxed environment fully isolated from cryptographic primitives, secret‑handling logic, and threshold reconstruction workflows.
+
+- No secret material, key fragments, or sensitive cryptographic artifacts are ever exposed to AI systems.
+
+- LLMs do not participate in cryptographic decision‑making and cannot override deterministic validation results.
+
+Deterministic and Auditable Workflows
+
+- All LLM interactions follow fixed, versioned, and reproducible prompt templates.
+
+- Outputs are deterministic within the constraints of the model and are validated against cryptographic truth before being accepted into any workflow.
+
+- Every AI‑assisted operation generates a traceable audit log entry aligned with the repository’s security and compliance model.
+
+Data Handling and Privacy Guarantees
+
+- No user data, evidence, or cryptographic material is used for model training.
+
+- All inference is stateless and ephemeral.
+
+- AI components process only metadata, structural information, and non‑sensitive representations of evidence.
+
+Operational Constraints
+
+- AI systems serve as analytical and documentation‑support components, not autonomous decision engines.
+
+- AI‑generated outputs are advisory and must pass deterministic validation layers before integration into forensic or compliance artifacts.
+
+- The system enforces strict separation between AI‑assisted analysis and authoritative cryptographic verification.
+
+Risk Mitigation
+
+- AI components cannot modify evidence, cryptographic artifacts, or validation results.
+
+- All outputs are subject to human or deterministic review in workflows requiring audit‑grade assurance.
+
+- The architecture prevents model hallucinations from influencing cryptographic or compliance outcomes.
