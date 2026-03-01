@@ -5,6 +5,60 @@ Audit‑ready documentation, cryptographic validation, and evidence workflows.
 
 ---
 
+## Krunixbase Ecosystem Overview
+
+The Krunixbase ecosystem is a modular security and cryptography framework designed for audit‑grade validation, forensic workflows, and AI‑assisted compliance automation. Each repository in the ecosystem serves a specific role within a unified architecture focused on deterministic security, operational resilience, and institutional‑grade documentation.
+
+Core Components
+
+- shamir-core — reference implementation of Shamir Secret Sharing with deterministic encoding and audit‑ready structure.
+
+- shamir-validator — mathematical validation suite for threshold reconstruction, polynomial consistency, and formal verification.
+
+- shamir-lab — experimental research environment for reconstruction testing, fuzzing, and anomaly analysis.
+
+- shamir-cli — modular command‑line toolkit for operational recovery and silent, deterministic workflows.
+
+- shamir-agent — threshold‑based signing agent with secure isolation and forensic logging.
+
+- shamir-envelope — reference format for storing Shamir shares without leaking structure or operational intent.
+
+- threshold-operations — operational procedures for manifests, rotation, recovery, and institutional workflows.
+
+Evidence & Compliance Layer
+
+- soc2-evidence-validator — validation patterns for SOC 2 evidence artifacts.
+
+- iam-evidence-validator — audit‑ready IAM evidence validator for access reviews and identity lifecycle controls.
+
+- GDPR-Evidence-Validator — offline validator for GDPR documentation completeness and availability.
+
+- licensing-compliance — governance repository for open‑source license compliance and legal interpretation.
+
+AI/LLM Integration
+
+- ai-integration — deterministic prompt templates, reproducible inference workflows, and audit‑aligned AI/LLM pipelines supporting cryptographic analysis and compliance documentation.
+
+Documentation & Governance
+
+- docs — full PL/EN documentation for architecture, governance, cryptography, AI/LLM integration, and operational standards.
+
+- krunixbase (this repository) — ecosystem landing page, governance overview, and security model.
+
+Architectural Principles
+
+- deterministic cryptographic operations
+
+- strict isolation boundaries
+
+- reproducible and auditable workflows
+
+- compliance‑aligned documentation
+
+- modular, testable, and independently versioned components
+
+---
+
 ## 🧭 Project Origin
 
 This repository consolidates and extends the original Krunixbase
@@ -226,60 +280,6 @@ auditors or advisors when required.
 
 See individual repository `REFERENCE.md` files for organizational
 context, external references, and governance documentation.
-
----
-
-## Krunixbase Ecosystem Overview
-
-The Krunixbase ecosystem is a modular security and cryptography framework designed for audit‑grade validation, forensic workflows, and AI‑assisted compliance automation. Each repository in the ecosystem serves a specific role within a unified architecture focused on deterministic security, operational resilience, and institutional‑grade documentation.
-
-Core Components
-
-- shamir-core — reference implementation of Shamir Secret Sharing with deterministic encoding and audit‑ready structure.
-
-- shamir-validator — mathematical validation suite for threshold reconstruction, polynomial consistency, and formal verification.
-
-- shamir-lab — experimental research environment for reconstruction testing, fuzzing, and anomaly analysis.
-
-- shamir-cli — modular command‑line toolkit for operational recovery and silent, deterministic workflows.
-
-- shamir-agent — threshold‑based signing agent with secure isolation and forensic logging.
-
-- shamir-envelope — reference format for storing Shamir shares without leaking structure or operational intent.
-
-- threshold-operations — operational procedures for manifests, rotation, recovery, and institutional workflows.
-
-Evidence & Compliance Layer
-
-- soc2-evidence-validator — validation patterns for SOC 2 evidence artifacts.
-
-- iam-evidence-validator — audit‑ready IAM evidence validator for access reviews and identity lifecycle controls.
-
-- GDPR-Evidence-Validator — offline validator for GDPR documentation completeness and availability.
-
-- licensing-compliance — governance repository for open‑source license compliance and legal interpretation.
-
-AI/LLM Integration
-
-- ai-integration — deterministic prompt templates, reproducible inference workflows, and audit‑aligned AI/LLM pipelines supporting cryptographic analysis and compliance documentation.
-
-Documentation & Governance
-
-- docs — full PL/EN documentation for architecture, governance, cryptography, AI/LLM integration, and operational standards.
-
-- krunixbase (this repository) — ecosystem landing page, governance overview, and security model.
-
-Architectural Principles
-
-- deterministic cryptographic operations
-
-- strict isolation boundaries
-
-- reproducible and auditable workflows
-
-- compliance‑aligned documentation
-
-- modular, testable, and independently versioned components
 
 ---
 
